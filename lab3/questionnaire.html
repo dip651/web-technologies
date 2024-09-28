@@ -1,0 +1,103 @@
+<html>
+<head>
+<style>
+</style>
+</head>
+<body>
+<h1 align="center"> Анкета </h2>
+<form action="/submit" method="get"> <div tabindex="0">
+<label for="pib">Введіть свій ПІБ:</label>
+<input id="pib" type="text" placeholder="Прізвище Ім'я По-батькові" required/> <br/>
+<label for="about-me"> Розкажіть коротко про себе: </label> <br/>
+<textarea id="about-me" rows="4" cols="50" placeholder="Про мене"></textarea> <br/>
+<label for="email">Введіть пошту:</label>
+<input id="email" type="email" placeholder="your_email@gmail.com" autocomplete="off" pattern="[a-z0-9._]+@gmail.com"/> <br/>
+<label for="psw">Введіть пароль: </label>
+<input id="psw" type="password" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6}"/> <br/>
+<label for="phone">Введіть ваш номер телефону: </label>
+<input id="phone" type="tel" placeholder="0981234567" pattern="[0-9]{10}" required/> <br/>
+<label for="birth">Введіть вашу дату народження: </label>
+<input id="birth" type="date"/> <br/>
+<fieldset style="width:230px"> <legend>Виберіть ваш улюблений спорт:</legend>
+<div id="radio-buttons">placeholder=""
+	<input id="football" type="radio" name="sport" value="Football"/>
+	<label for="football">Футбол</label> <br/>
+	<input type="radio" name="sport" value="Volleyball"/>
+	<label for="volleyball">Волейбол</label> <br/>
+	<input type="radio" name="sport" value="Basketball"/>
+	<label for="volleyball">Баскетбол</label> <br/>
+</div>
+</fieldset>
+<fieldset style="width:280px"> <legend>Виберіть ваше місце проживання:</legend>
+<div id="radio-buttons">
+	<input id="dorm" type="radio" name="home" value="dorm1" checked/>
+	<label for="dorm">Гуртожиток</label> <br/>
+	<input id="flat" type="radio" name="home" value="dorm2"/>
+	<label for="flat">Квартира</label> <br/>
+	<input id="house" type="radio" name="home" value="dorm2"/>
+	<label for="house">Будинок</label> <br/>
+</div>
+</fieldset>
+<fieldset style="width:400px"> <legend>Виберіть ваші хобі:</legend>
+<div id="check-buttons">
+	<input id="games" type="checkbox" name="hobby" value="games"/>
+	<label for id="games">Відеоігри</label> <br/>
+	<input id="sport" type="checkbox" name="hobby" value="sport"/>
+	<label for id="sport">Спорт</label> <br/>
+	<input id="paint" type="checkbox" name="hobby" value="paint"/>
+	<label for id="paint">Малювання</label> <br/>
+	<input id="code" type="checkbox" name="hobby" value="code"/>
+	<label for id="code">Програмування</label> <br/>
+</div>
+</fieldset>
+<label for="pet-select">Виберіть вашого домашнього улюбленця</label>
+<select id="pet-select">
+	<option value="dog">Собака</option>
+	<option value="cat">Кіт</option>
+	<option value="none" selected>Немає</option>
+	<option value="parrot">Папуга</option>
+	<option value="hamster">Хом'як</option>
+</select> <br/>
+<label for="device-select">Виберіть ваші девайси:</label>
+<select id="device-select" multiple>
+	<option value="phone">Телефон</option>
+	<option value="tablet">Планшет</option>
+	<option value="laptop">Ноутбук</option>
+	<option value="netbook">Нетбук</option>
+	<option value="pc">Комп'ютер</option>
+	<option value="pda">Пейджер</option>
+</select> <br/>
+<label for="title-select">Виберіть улюблений тайтл:</label>
+<select id="title-select">
+	<optgroup label="Фільм">
+		<option value="drive">Драйв</option>
+		<option value="truman-show">Шоу Трумена</option>
+		<option value="spider-man">Людина-павук</option>
+	<optgroup label="Серіал">
+		<option value="dexter">Декстер</option>
+		<option value="breaking-bad">Пуститися берега</option>
+		<option value="peaky-blinders">Гострі картузи</option>
+	<optgroup label="Мультфільм">
+		<option value="ice-age">Льодовиковий період</option>
+		<option value="madagascar">Мадагаскар</option>
+		<option value="shrek">Шрек</option>
+	<optgroup label="Аніме">
+		<option value="death-note">Щоденник смерті</option>
+		<option value="jojo">Неймовірні пригоди ДжоДжо</option>
+		<option value="berserk">Берсерк</option>
+</select> <br/>
+<label for="subjects">Виберіть улюблений предмет:</label>
+<input list="subject" id="subjects" name="subjects"/> <br/>
+<datalist id="subject">
+	<option value="Програмування"></option>
+	<option value="Математика"></option>
+	<option value="Веб-технології"></option>
+	<option value="Англійська мова"></option>
+</datalist>
+<label for="sound">Завантажте улюблену пісню:</label>
+<input type="file" id="sound" accept="audio/*" multiple /> <br/>
+<button type="submit">Завершити</button> <input type="reset" value="Очистити"/>
+</div> </form>
+<br/> <a href="C:\Users\1\Documents\GitHub\web-technologies\lab3\index.html"> Повернутись на головну </a>
+</body>
+</html>
