@@ -1,0 +1,18 @@
+a {
+	color: purple;
+}
+.main {
+	color: green;
+}
+.square {
+	list-style-type: square;
+}
+.custom {
+	list-style-image: url(./li.svg);
+}
+ul ul {
+	list-style-type: none;
+}
+ol, ul {
+	list-style-position: inside;
+}

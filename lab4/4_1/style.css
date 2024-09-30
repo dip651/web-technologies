@@ -1,0 +1,34 @@
+* {
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 40px;
+}
+p {
+	color: green;
+	text-align: center;
+}
+div {
+	text-align: justify;
+}
+.red {
+	color: red;
+}
+.single-row {
+	white-space: nowrap;
+}
+#second {
+	font-style: italic;
+	font-weight: bold;
+}
+.shadow {
+	text-shadow: 5px -5px 3px #ff0000;
+}
+.styles {
+	text-decoration: line-through;
+	text-transform: uppercase;
+	text-indent: 50px;
+}
+.styles-too {
+	letter-spacing: 30px;
+	word-spacing: 50px;
+}
