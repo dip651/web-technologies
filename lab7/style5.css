@@ -1,0 +1,78 @@
+.all {
+	position: relative;
+	margin: 50px;
+	width: 550px;
+	height: 400px;
+	background-color: #6d706e;
+}
+
+.cloud {
+	z-index: 2;
+	position: absolute;
+	top: 50px;
+	right: 20px;
+	width: 400px;
+	height: 250px;
+	opacity: 0.8;
+	background-image: url("cloud.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.day {
+	z-index: 1;
+	position: absolute;
+	top: 10px;
+	left: 75px;
+	width: 300px;
+	height: 300px;
+	background-color: black;
+	color: gray;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	font-size: 100px;
+	font-weight: bold;
+	font-style: Arial, sans-serif;
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.week {
+	width: 300px;
+	height: 150px;
+	position: absolute;
+	bottom: 15px;
+	right: 30px;
+	word-spacing: 15px;
+	background-color: #808782;
+	color: #404541;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	text-align: center;
+	padding-bottom: 10px;
+	box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+span {
+	font-size: 16px;
+	color: black;
+	word-spacing: 21px;
+}
+
+.arrows {
+	z-index: 3;
+	width: 100px;
+	height: 50px;
+	background-image: url("left-arrow.svg"), url("right-arrow.svg");
+	background-position: left, right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 100px;
+	left: 25px;
+	background-color: gray;
+	opacity: 0.5;
+	box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+	filter: invert(1);
+}

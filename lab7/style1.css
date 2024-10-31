@@ -1,0 +1,25 @@
+.block {
+	outline: 2px solid black;
+	padding: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.overlay-block {
+	outline: 2px solid black;
+    position: fixed;
+    top: 75px;
+	left: 150px;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    z-index: 1;
+	text-align: center;
+}

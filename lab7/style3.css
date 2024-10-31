@@ -1,0 +1,204 @@
+input, textarea {
+	color: black;
+	font-size: 16px;
+	font-weight: 700;
+	text-indent: 20px;
+	border-radius: 10px;
+	opacity: 0.6;
+}
+
+textarea {
+	width: 620px;
+	height: 46px;
+	resize: none;
+	padding: 5px;
+}
+
+input {
+	width: 250px;
+	height: 30px;
+	display: inline-block;
+	margin: 15px 0px 15px 0px;
+}
+
+form::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+button {
+	font-size: 18px;
+	width: 130px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 50px;
+	float: right;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.ok {
+	border: 3px solid #0097a7;
+	color: #0097a7;
+}
+
+.reset {
+	border: 3px solid #e64a19;
+	color: #e64a19;
+}
+
+h2 {
+	text-align: center;
+	font-size: 25px;
+	color: #7d21b3;
+	font-weight: 700;
+	font-style: italic;
+	margin: 20px 20px 5px 20px;
+	position: relative;
+}
+
+h2::first-letter {
+	font-size: 50px;
+	color: magenta;
+}
+
+form {
+	font-family: Helvetica, sans-serif;
+	width: 620px;
+	border: 20px solid #868686;
+	background-image: url("fon.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0px 20px 20px 20px;
+}
+
+label {
+	font-size: 18px;
+	display: block;
+	color: white;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.about {
+	float: left;
+}
+
+textarea::first-line {
+	color: red;
+}
+
+.start::before {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 150px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	background: red;
+}
+
+.start::after {
+	content: '';
+	height: 2px;
+	width: 150px;
+	background: red;
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 0;
+}
+
+.underline {
+	position: relative;
+}
+
+.underline::after {
+	content: '';
+	margin: 0 auto;
+	height: 2px;
+	width: 300px;
+	background: red;
+	display: block;
+}
+
+.underline:hover::after {
+	background: green;
+	width: 450px;
+}
+
+.start:hover::before {
+	visibility: hidden;
+}
+
+.start:hover {
+	display: none;
+}
+
+.hover {
+	display: none;
+}
+
+.start:hover + .hover{
+	display: block;
+}
+
+.first:hover {
+	padding-bottom: 4px;
+	background-color: #fbff00;
+}
+
+.first:focus {
+	padding-bottom: 4px;
+	background-color: #ffa600;
+}
+
+.second:hover {
+	padding-bottom: 4px;
+	background-color: #1eff00;
+}
+
+.second:focus {
+	padding-bottom: 4px;
+	background-color: #00ffea;
+}
+
+.third:hover{
+	box-shadow: 0 0 10px 10px rgba(233, 27, 154, 0.6);
+}
+
+.ok:hover {
+	border: 3px solid #0097a7;
+	color: white;
+	background-color: #0097a7;
+	border-radius: 15px;
+}
+
+.ok:active {
+	border: 3px solid #ecfd00;
+	background-color: #014950;
+	border-radius: 25px;
+	position: relative;
+}
+
+.reset:hover {
+	border: 3px solid #e64a19;
+	color: white;
+	background-color: #e64a19;
+	border-radius: 15px;
+}
+
+.reset:active {
+	border: 3px solid #ecfd00;
+	background-color: #a02904;
+	border-radius: 25px;
+	position: relative;
+}

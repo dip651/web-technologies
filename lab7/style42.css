@@ -1,0 +1,80 @@
+body {
+	min-height: 200vh;
+}
+
+ul {
+	position: sticky;
+	top: 0;
+	list-style-type: none;
+}
+
+li {
+	background-repeat: no-repeat;
+	background-size: contain;
+	text-align: center;
+	color: white;
+	outline: 1px solid white;
+	background-color: #3f55ab;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+img {
+	float: left;
+}
+
+.home {
+	background-image: url("home.svg");
+}
+
+.list {
+	background-image: url("list.svg");
+}
+
+.cafe {
+	background-image: url("cafe.svg");
+}
+
+.vertical li:hover {
+	background-color: #4f67c9;
+	box-shadow: 0 0 10px rgba(49, 66, 130);
+}
+
+.submenu {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 83%;
+}
+
+.vertical li:hover .submenu{
+	display: flex;
+}
+
+.vertical li {
+	position: relative;
+}
+
+.submenu li:hover {
+	background-color: #5ebadb;
+	color: #23434f;
+}
+
+.subsub {
+	display: none;
+	position: absolute;
+	top: 100%;
+	right: 0;
+}
+
+.submenu li:hover .subsub {
+	display: block;
+}
+
+.subsub li:hover {
+	background-color: #5edbc9;
+	color: #1d4741;
+}

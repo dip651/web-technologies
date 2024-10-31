@@ -1,0 +1,27 @@
+.wrap {
+	clear: both;
+	width: 1140px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.logo img {
+	clear: right;
+	margin: 20px;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.menu ul {
+	margin: 20px;
+	list-style-type: none;
+	float: right;
+	display: inline-block;
+}
+.menu li {
+	margin: 10px;
+	float: left;
+	background-color: orange;
+	padding: 10px;
+	width: 150px;
+	text-align: center;
+}
