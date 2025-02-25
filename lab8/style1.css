@@ -1,0 +1,146 @@
+body {
+	font-family: Trebuchet MS, sans-serif;
+	background-color: gray;
+}
+
+.all {
+	margin-left: 30%;
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+	position: relative;
+}
+
+.main {
+	position: relative;
+	background-repeat: no-repeat;
+	background-color: white;
+	background-size: 100px 100px;
+	background-position: 20px 130px;
+	width: 600px;
+	height: 250px;
+}
+
+h1 {
+	position: absolute;
+	left: 30px;
+	font-size: 50px;
+}
+
+#day {
+	line-height: 25px;
+	position: absolute;
+	top: 85px;
+	left: 30px;
+	color: gray;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#temp {
+	position: absolute;
+	top: 150px;
+	left: 120px;
+	font-size: 34px;
+	color: gray;
+}
+
+#info {
+	position: absolute;
+	top: 130px;
+	right: 140px;
+	text-align: left;
+	color: gray;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.black {
+	color: black;
+}
+
+.weather {
+	background-color: white;
+	text-align: right;
+	display: flex;
+	position: relative;
+	align-items: center;
+	outline: 1px solid gray;
+	width: 600px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 35% 50%;
+}
+
+.day {
+	position: absolute;
+	left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.temp {
+	position: absolute;
+	left: 350px;
+	color: gray;
+	width: 40px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.temp:first-line {
+	color: black;
+}
+
+.pollen {
+	position: absolute;
+	right: 50px;
+	color: gray;
+	padding-left: 75px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.all div:nth-child(1) {
+	background-image: url("iconfinder_weather01.png");
+}
+.all div:nth-child(2) {
+	background-image: url("iconfinder_weather02.png");
+}
+.all div:nth-child(3) {
+	background-image: url("iconfinder_weather03.png");
+}
+.all div:nth-child(4) {
+	background-image: url("iconfinder_weather04.png");
+}
+.all div:nth-child(5) {
+	background-image: url("iconfinder_weather05.png");
+}
+.all div:nth-child(6) {
+	background-image: url("iconfinder_weather06.png");
+}
+.all div:nth-child(7) {
+	background-image: url("iconfinder_weather07.png");
+}
+.all div:nth-child(8) {
+	background-image: url("iconfinder_weather08.png");
+}
+.all div:nth-child(9) {
+	background-image: url("iconfinder_weather09.png");
+}
+.all div:nth-child(10) {
+	background-image: url("iconfinder_weather10.png");
+}
+.all div:nth-child(11) {
+	background-image: url("iconfinder_weather11.png");
+}
+.all div:nth-child(12) {
+	background-image: url("iconfinder_weather12.png");
+}
+.all div:nth-child(13) {
+	background-image: url("iconfinder_weather13.png");
+}
+.all div:nth-child(14) {
+	background-image: url("iconfinder_weather14.png");
+}

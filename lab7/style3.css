@@ -135,11 +135,15 @@ textarea::first-line {
 	width: 450px;
 }
 
-.start:hover::before {
+.underline:hover .start::before {
 	visibility: hidden;
 }
 
-.start:hover {
+.underline:hover .start::before {
+	visibility: hidden;
+}
+
+.underline:hover .start {
 	display: none;
 }
 
@@ -147,7 +151,7 @@ textarea::first-line {
 	display: none;
 }
 
-.start:hover + .hover{
+.underline:hover .hover{
 	display: block;
 }
 

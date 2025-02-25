@@ -6,7 +6,6 @@
 .block {
 	opacity: 1;
 	margin: 0px 10px 0px 10px;
-	display: inline-block;
 	outline: 2px solid black;
 	padding: 10px;
     width: 100px;
@@ -19,7 +18,6 @@
 
 #center {
 	opacity: 0;
-	display: inline-block;
 	outline: 2px solid black;
 	padding: 10px;
     width: 100px;

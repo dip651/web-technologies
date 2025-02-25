@@ -1,1 +1,29 @@
-style 3
+.header {
+	font-family: Georgia;
+	font-size: 30px;
+	background-color: brown;
+	width: 400px;
+	border-radius: 10px;
+	outline: 3px solid #360a16;
+	margin: auto;
+}
+form {
+	outline: 2px solid #360a16;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	margin: auto;
+	width: 800px;
+	background-color: #cfd4b8;
+}
+label, input, textarea {
+	width: 500px;
+	margin: auto;
+	display: flex;
+	font-family: Trebuchet MS;
+	background-color: #acb096;
+	outline: 1px solid #4a4d3d;
+}
+label {
+	margin: auto;
+}

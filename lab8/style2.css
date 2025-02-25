@@ -1,0 +1,252 @@
+body {
+	background-color: black;
+	width: 100%;
+}
+
+.all {
+	margin: 0;
+	background-color: white;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.header {
+	border: 2px solid #7cc3c4;
+	box-sizing: border-box;
+	width: 100%;
+	height: 150px;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+.header .logo {
+	width: 150px;
+	height: 60px;
+	background-image: url("cocacola.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 50px 0 0 50px;
+}
+img {
+	width: 50px;
+	height: 50px;
+}
+.header ul {
+	position: absolute;
+	top: 30px;
+	right: 100px;
+	list-style-type: none;
+	display: flex;
+	float: right;
+}
+.header ul li {
+	font-weight: bold;
+	font-size: 20px;
+	width: 100px;
+	margin: auto;
+}
+.line {
+	align-items: center;
+	text-align: center;
+	margin-top: 150px;
+	padding-top: 70px;
+	padding-left: 100px;
+	padding-right: 100px;
+	font-weight: bold;
+	font-size: 30px;
+	width: 100%;
+	height: 100px;
+	background-color: #7cc3c4;
+}
+.line span {
+	font-size: 15px;
+	font-weight: normal;
+}
+.works {
+	margin-top: 30px;
+	width: 100%;
+}
+.left {
+	font-weight: bold;
+	font-size: 24px;
+	width: 300px;
+	position: absolute;
+}
+.works .right {
+	position: absolute;
+	right: 0;
+	background-color: #d65884;
+	color: white;
+	padding: 10px;
+}
+.works .images div {
+	width: 260px;
+	height: 260px;
+	flex: 30%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.works .images {
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+@media (max-width: 768px) {
+	.works .images div {
+		flex: 48%;
+	}
+	.journal li {
+		flex: 100%;
+	}
+	.do li {
+		
+	}
+	.header ul {
+		display: none;
+	}
+	.last {
+		display: block;
+	}
+}
+@media (max-width: 576px) {
+	.works .images div {
+		flex: 100%;
+	}
+	.journal li {
+		flex: 100%;
+	}
+	.journal ul li img{
+		float: top;
+	}
+}
+.works .work {
+	color: gray;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+.works .contact {
+	color: white;
+	font-size: 20px;
+	margin: 10px auto;
+	text-align: center;
+	border-radius: 5px;
+	width: 150px;
+	background-color: #d65884;
+}
+.text {
+	color: gray;
+	position: absolute;
+	top: 30px;
+	width: 800px;
+}
+.do ul {
+	display: flex;
+	gap: 20px;
+	list-style-type: none;
+	padding: 0;
+	margin: 60px 0 0 0;
+}
+.do img {
+	width: 185px;
+	height: 185px;
+}
+.do ul li span {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+.do ul li {
+	text-align: center;
+	color: gray;
+	flex: 24%;
+}
+.journal {
+	margin-top: 50px;
+	position: relative;
+	width: 100%;
+}
+.journal ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 60px 0 20px 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: flex-start;
+	gap: 20px;
+}
+.journal ul li {
+	width: 48%;
+	color: gray;
+	margin: auto;
+}
+.journal ul li img {
+	float: left;
+	width: 185px;
+	height: 185px;
+}
+.journal .head {
+	color: black;
+	font-weight: bold;
+}
+.footer {
+	padding: 0 100px 0 100px;
+	background-color:gray;
+	width: 100%;
+	height: 200px;
+	align-items: center;
+	display: flex;
+}
+.footer img {
+	width: 100px;
+	height: 100px;
+}
+.footer .imgs {
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.works .images div:nth-child(1) {
+	background-image: url("im1.png");
+}
+.works .images div:nth-child(2) {
+	background-image: url("im2.png");
+}
+.works .images div:nth-child(3) {
+	background-image: url("im3.png");
+}
+.works .images div:nth-child(4) {
+	background-image: url("im4.png");
+}
+.works .images div:nth-child(5) {
+	background-image: url("im5.png");
+}
+.works .images div:nth-child(6) {
+	background-image: url("im6.png");
+}
+.works .images div:nth-child(7) {
+	background-image: url("im7.png");
+}
+.works .images div:nth-child(8) {
+	background-image: url("im8.png");
+}
+.works .images div:nth-child(9) {
+	background-image: url("im9.png");
+}

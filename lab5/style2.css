@@ -16,3 +16,29 @@ td {
 div {
 	background-color: yellow;
 }
+
+table tr td:first-child {
+	background-color: #df344e;
+}
+tr:nth-child(even) td{
+	background-color: #d9b0c1;
+}
+tr:nth-child(odd) td{
+	background-color: #ffdbea;
+}
+th:nth-child(2) {
+	background-color: #631b39;
+	opacity: 0.4;
+}
+th:nth-child(3) {
+	background-color: #631b39;
+	opacity: 0.6;
+}
+th:nth-child(4) {
+	background-color: #631b39;
+	opacity: 0.8;
+}
+th:nth-child(5) {
+	background-color: #631b39;
+	opacity: 1;
+}
