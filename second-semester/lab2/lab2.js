@@ -41,3 +41,4 @@ function seasonCheck(month) {
 }
 
 seasonCheck(11);
+gradeCheck(3);
